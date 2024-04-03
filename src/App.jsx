@@ -1,11 +1,13 @@
 import { BrowserRouter, Link, Routes } from "react-router-dom";
 import routes from "./routes/routes";
 import "./App.css";
+import Logos from "./components/Logos";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
+        <Logos />
         <nav>
           <ul className="app-ul">
             <li className="app-li">
